@@ -1,4 +1,4 @@
-// LED blink without delay
+// LED on and off each second
 
 // Constant (unchanging)
   const int ledPin = LED_BUILTIN;  // the number of the LED pin
@@ -7,8 +7,6 @@
   int ledState = LOW;  // ledState used to set the LED
 
   unsigned long previousMillis = 0;  // will store last time LED was updated
-  // (Generally, you should use "unsigned long" for variables that hold time.
-  // The value will quickly become too large for an int to store)
 
 // Constant
   const long interval = 1000;  // interval at which to blink (milliseconds)
